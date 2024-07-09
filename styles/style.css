@@ -60,3 +60,70 @@ body{
     border-radius: 8px;
 }
 /* in the future section end here  */
+/* why development section start here  */
+.development-container{
+    width: 1000px;
+     height: 1150px;
+     /* border: 2px solid red ; */
+     margin: 0 auto;
+}
+.development-content{
+    width: 900px;
+    height: 1020px;
+    
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+}
+.development-tittle{
+    text-align: center;
+    font-size: 27px;
+    font-weight: 800px;
+    margin-bottom: 20px;
+    color: rgb(13, 19, 33,0.7);
+}
+.development-description{
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(13, 19, 33);
+    margin-bottom: 100px;
+}
+.codingworld-container,.web-container{
+    width: 850px;
+    height: 200px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    gap: 40px;
+    
+}
+.codingworld-tittle,.web-tittle{
+    font-size: 20px;
+    font-weight: 700px;
+    text-align: left;
+    color: rgb(13, 19, 33,0.7);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.codingworld-description,.web-description{
+    font-size: 12px;
+    font-weight: 400px;
+    margin-bottom: 30px;
+    color: rgb(13, 19, 33);
+}
+.coding-btn{
+    width: 109px;
+    height: 24px;
+    /* padding: 7px 10px 10px 10px; */
+    border: 1px solid rgb(13, 19, 33);
+    background-color: white;
+}
+.coding-image img,.web-image img{
+    width: 240px;
+    height: 210px; 
+}
