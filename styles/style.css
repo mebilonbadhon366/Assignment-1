@@ -132,14 +132,14 @@ body{
 /* My inspiration Start here  */
 .inspiration-container{
     width: 1000px;
-    height: 640px;
-    border: 2px solid red;
+    height: 650px;
+    /* border: 2px solid red; */
     margin: 0 auto;
 }
 .inspiration-content{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
     
 }
 .inspiration-tittle{
@@ -152,13 +152,14 @@ body{
     font-size: 12px;
     font-weight: 400px;
     color: rgb(13, 19, 33);
-    text-align: center;
+    align-items:center;
     margin-bottom: 80px;
+    
 }
 .inspiration-video{
     width: 950px;
     height: 450px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     border: 1px solid rgb(13, 19, 33,0.2);
     border-radius: 15px;
@@ -172,3 +173,68 @@ body{
     
 }
 /* My inspiration section end here  */
+/* My current target start here  */
+.mytarget-container{
+    width: 1000px;
+    height: 370px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.mytarget-tittle{
+    font-size: 27px;
+    font-weight: 800px;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    margin-bottom: 10px;
+}
+.mytarget-description{
+    font-size: 12px;
+    font-weight: 400px;
+    color: rgb(13, 19, 33);
+    text-align: center;
+}
+.language-container{
+    width: 1000px;
+    height: 240px;
+    /* border: 2px solid red; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.html5{
+    width: cover;
+    background-color:  rgba(255, 76, 30, 0.05);
+    border-radius: 15px;
+    padding: 10px 10px;
+}
+.css{
+    width: cover;
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 15px;
+    padding: 10px 10px;
+}
+.javascript{
+    width: cover;
+    background-color: rgba(255, 223, 0, 0.05);
+    border-radius: 15px;
+    padding: 10px 10px;
+}
+.images{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.language-tittle{
+    margin-bottom: 15px;
+}
+.language-description{
+    margin-bottom: 20px;
+}
+.anchor{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+}
+/* My cuurent target end here  */
