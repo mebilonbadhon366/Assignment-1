@@ -238,3 +238,57 @@ body{
     color: rgb(13, 19, 33);
 }
 /* My cuurent target end here  */
+/* i need support start here  */
+.support-container{
+    width: 1000px;
+    height: 300px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 100px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+.support-content{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.support-content h2{
+    font-size: 27px;
+    font-weight: 700;
+    color: rgb(255,255,255);
+    margin-bottom: 15px;
+}
+.support-content p{
+    font-size: 12px;
+    font-weight: 400px;
+    color: rgb(255,255,255);
+    margin-bottom: 40px;
+}
+.form input{
+    width: 500px;
+    height: 55px;
+    padding-left: 20px;
+    border-radius: 8px;
+    color:rgb(13, 19, 33);
+    background-color: rgb(255,255,255);
+    border: none;
+}
+.form button{
+    width: 200px;
+    height: 55px;
+    font-size: 20px;
+    font-weight: 600px;
+    color:rgb(13, 19, 33);
+    background-color: rgb(255,255,255);
+    border-radius: 8px;
+    
+}
+/* i need support section wnd here  */
